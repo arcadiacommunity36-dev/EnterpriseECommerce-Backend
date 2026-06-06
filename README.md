@@ -1,4 +1,4 @@
-# Enterprise E-Commerce Backend (.NET 8/9)
+# Enterprise E-Commerce Backend (.NET 10)
 
 A production-ready, highly scalable, and loosely coupled E-Commerce backend built using the industry-standard **Clean Architecture** and **CQRS (Command Query Responsibility Segregation)** design patterns. This project is specifically designed to showcase modern backend engineering principles, performance optimization, and robust data validation.
 
@@ -40,7 +40,7 @@ This project strictly follows **Clean Architecture** principles to ensure the co
 
    bash
    
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/EnterpriseECommerce-Backend.git](https://github.com/YOUR_GITHUB_USERNAME/EnterpriseECommerce-Backend.git)
+   git clone [https://github.com/arcadiacommunity36-dev/EnterpriseECommerce-Backend.git](https://github.com/arcadiacommunity36-dev/EnterpriseECommerce-Backend.git)
    cd EnterpriseECommerce-Backend
    
 2. Database Configuration:
