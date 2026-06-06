@@ -31,7 +31,7 @@ This project strictly follows **Clean Architecture** principles to ensure the co
 ## 🛠️ Getting Started
 
 ### Prerequisites
-- .NET 8 or .NET 9 SDK
+- .NET 10
 - MS SQL Server (LocalDB or Express instance)
 
 ### Installation & Local Setup
