@@ -1,0 +1,32 @@
+﻿using EnterpriseECommerce.Application.Features.Products.Commands.CreateProduct;
+using EnterpriseECommerce.Application.Features.Products.Queries.GetAllProducts;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+
+namespace EnterpriseECommerce.WebAPI.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class ProductsController : ControllerBase
+{
+    private readonly IMediator _mediator;
+
+    public ProductsController(IMediator mediator)
+    {
+        _mediator = mediator;
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Create([FromBody] CreateProductCommand command)
+    {
+        var productId = await _mediator.Send(command);
+        return Ok(productId);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        var products = await _mediator.Send(new GetAllProductsQuery());
+        return Ok(products);
+    }
+}
