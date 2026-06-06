@@ -19,7 +19,7 @@ This project strictly follows **Clean Architecture** principles to ensure the co
 
 ## 🚀 Key Features & Tech Stack
 
-- **Framework:** .NET 8/9 Core (Web API)
+- **Framework:** .NET 10 Core (Web API)
 - **Database & ORM:** MS SQL Server with **Entity Framework Core**
 - **Design Patterns:** CQRS Pattern managed via **MediatR** for decoupled read/write operations
 - **Data Validation:** Pipeline-ready **FluentValidation** securing incoming request payloads
